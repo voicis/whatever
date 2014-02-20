@@ -2,17 +2,24 @@
  * WoW Guild Retrieve
  * Default CSS Styling
  */
- 
+div#roster .character-list {list-style: none;}
+div#roster .character-info {list-style: none;background-size:24px 24px;background-repeat: no-repeat;padding-left: 30px;}
+div#roster img {}
+ul#healer-list li{ background-image: url('../images/role-healer.png');}
+ul#tank-list li{ background-image: url('../images/role-tank.png');}
+ul#dps-list li{ background-image: url('../images/role-dps.png');}
+
 div#guild-data-div{font:12px Arial;font-weight:400;padding:0;}
 div#guild-data-div th{font-weight:700;text-align:left;}
 div#guild-data-div td img{border:0;}
 div#guild-data-div .clear{clear:both;}
 
+div#guild-data-div table .ginfo-role{width:30px;}
 div#guild-data-div table .ginfo-race{width:50px;}
-div#guild-data-div table .ginfo-class{width:50px;}
-div#guild-data-div table .ginfo-name{text-align:left;padding-left:0.75em;}
+div#guild-data-div table .ginfo-class{width:30px;}
+div#guild-data-div table .ginfo-name{text-align:left;padding-left:0.75em; width:30px;}
 div#guild-data-div table .ginfo-level{width:50px;}
-div#guild-data-div table .ginfo-rank{width:100px;}
+div#guild-data-div table .ginfo-rank{width:20px;}
 div#guild-data-div table .ginfo-achieve{width:80px;}
 div#guild-data-div table tr:hover{background:#aaa;color:#000;}
 
@@ -22,7 +29,7 @@ div#guild-data-div #header-block h3{border:0;font:14px Arial;font-weight:700;pad
 div#guild-data-div #header-block img{float:left;}
 div#guild-data-div #header-text{float:left;text-align:left;height:70px;margin-left:1em;}
 
-div#guild-data-div table{clear:both;margin:10px;width:100%;}
+div#guild-data-div table{float:left;margin:10px;width:30%;}
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  * DataTables features
